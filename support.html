@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kicks – Assistance</title>
+<style>
+  :root { --bg: #090d18; --text: #e8eef8; --muted: #9fb0c8; --neon: #61dbff; --card: #111a2c; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f5f8fc; --text: #101828; --muted: #4a5568; --neon: #0b7fae; --card: #ffffff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  h1 span { color: var(--neon); text-shadow: 0 0 18px color-mix(in srgb, var(--neon) 60%, transparent); }
+  h2 { font-size: 20px; margin: 32px 0 8px; color: var(--neon); }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  .summary { background: var(--card); border: 1px solid color-mix(in srgb, var(--neon) 45%, transparent);
+             border-radius: 14px; padding: 16px 18px; }
+  .summary p { margin: 0; }
+  a { color: var(--neon); }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>Kicks</span> – Assistance</h1>
+  <p class="date">Jeu d'arcade néon pour iPhone, édité par fginc</p>
+
+  <h2>Une question, un bug, une idée ?</h2>
+  <div class="summary"><p>Ouvre une demande sur la <a href="https://github.com/vwiencek/kicks-privacy/issues">page de contact</a> en décrivant ce qui se passe,
+  avec ton modèle d'iPhone et ta version d'iOS si c'est un bug. Nous répondons généralement sous quelques jours.</p></div>
+
+  <h2>Questions fréquentes</h2>
+  <p><strong>Comment jouer ?</strong> Glisse le doigt pour quitter la bordure et tracer dans la zone libre, puis rejoins la
+  bordure pour capturer la zone fermée. Touche l'écran pour t'arrêter. Le <em>Tutoriel</em>, dans le menu, montre tout pas à pas.</p>
+  <p><strong>Game Center ne s'ouvre pas.</strong> Vérifie que tu es connecté dans Réglages → Game Center. Sans connexion,
+  le jeu fonctionne normalement, mais les classements et les succès ne sont pas envoyés.</p>
+  <p><strong>Je n'entends pas la musique.</strong> Vérifie l'option <em>Musique</em> dans le menu et le bouton silence de
+  l'iPhone. La musique reste coupée pendant qu'une autre app joue du son.</p>
+  <p><strong>Ma progression a disparu.</strong> Scores et progression sont enregistrés sur l'iPhone et effacés si l'app est supprimée.</p>
+
+  <h2>Confidentialité</h2>
+  <p>Kicks ne collecte aucune donnée personnelle. Voir la <a href="./">politique de confidentialité</a>.</p>
+</main>
+</body>
+</html>
